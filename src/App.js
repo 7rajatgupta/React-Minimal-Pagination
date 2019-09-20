@@ -9,7 +9,7 @@ const App = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(10);
+  const [postsPerPage] = useState(10);
 
   const FetchPosts = async () => {
     setLoading(true);
@@ -32,10 +32,10 @@ const App = () => {
   const paginate = pageNumber => setCurrentPage(pageNumber);
   return (
     <div className="container mt-5">
-      <h2 className="text-primary text-center mb-3">React Simple Pagination</h2>
-      <h6 className="text-secondary text-center mb-5">
-        Simple and Clean. Posts by JSON Placeholder
-      </h6>
+      <h2 className="text-primary text-center mb-3">
+        React Minimal Pagination
+      </h2>
+      <h6 className="text-secondary text-center mb-5">Simple and Clean UI</h6>
       <Posts posts={currentPagePosts} loading={loading} />
       <Pagination
         postsPerPage={postsPerPage}

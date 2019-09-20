@@ -1,9 +1,9 @@
-# React Simple Pagination
+# React Minimal Pagination
 
-#### Clean and lightweight.
+#### Minimalist UI and lightweight
 
-## Created using just React with hooks. No dependencies.
+### Created using just React with hooks. No dependencies.
 
-<img src="https://media.giphy.com/media/d7eaTpebXtvqKoV8Dy/giphy.gif" width="720" height="516" />
+<img src="https://media.giphy.com/media/d7eaTpebXtvqKoV8Dy/giphy.gif" width="480" height="344" />
 
-### Posts by JSON Placeholder, Styled using Bootstrap CSS.
+##### Posts by JSON Placeholder, Styled using Bootstrap CSS.
